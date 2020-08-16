@@ -12,3 +12,11 @@ the values in cuberoot are the cube root of those provided
 in number1 and the values in logarithm are changed to the
 natural logarithm of those in number2
 */
+
+
+
+
+
+
+/* solution: */
+SELECT cbrt(number1) AS cuberoot, ln(number2) AS logarithm FROM decimals;

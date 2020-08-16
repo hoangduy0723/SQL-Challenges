@@ -13,4 +13,11 @@ output table schema
 Don't forget to add spaces
 */
 
+
+
+
+
+
 /* SOLUTION */
+
+SELECT concat_ws(' ', prefix, first, last, suffix) as title FROM names;
